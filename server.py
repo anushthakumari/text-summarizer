@@ -28,4 +28,4 @@ def Summarize():
         return render_template('index.html', inputText = inputText, summary = summary)
     return render_template('index.html')
 
-app.run()
+app.run(debug=False, port=80)
